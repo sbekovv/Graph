@@ -1,0 +1,11 @@
+.contribution-graph {
+    display: grid;
+    grid-template-columns: repeat(56, 17px);
+    gap: 2px;
+    margin: 10px 200px;
+}
+
+.contribution-cell.active {
+    background-color: green;
+}
+
